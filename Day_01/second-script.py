@@ -1,3 +1,4 @@
+# Variables
 fruit = "apple"
 vegetable = "carrot"
 age = 45
