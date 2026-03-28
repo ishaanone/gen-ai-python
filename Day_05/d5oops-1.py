@@ -1,36 +1,36 @@
 # class Student:
 #     pass
 
-
 # s1 = Student()
 # print(s1)
 
+
 # class Student:
 
-#     ## methods 
+#     ## methods
+#     x = "akshat"
+#     print(x)  # akshat
+#     # print(type(x))
 
-# x = "akshat"
-# print(x)  #akshat
-# print(type(x))
+#     # change to upper letter
+#     print(x.upper())  # Method : function which is present inside the class
 
-# # change to upper letter
-# print(x.upper()) #Method : function which is present inside the class 
+#     y = str("Akshat")   #akshat  #str is class
+#     print(y)
+#     print(y.upper())
 
-
-# y = str("Akshat")   #akshat  #str is class
-# print(y)
-# print(y.upper())
 
 # class School:
-#     def student(self):  #self = d1  # self is the object but rather then hardcoding the object name if you put self it does not matter what object name your create
+#     def student(self):  # self = d1  # self is the object but rather then hardcoding the object name if you put self it does not matter what object name your create
 #         print("hello")
+
 #     def classroom(self):
 #         print("welcome to class")
 
-# d1 = School()  #creating the object d1 where i will call class School
+
+# d1 = School()  # creating the object d1 where i will call class School
 # d1.student()  # i am calling method student
-# # class School:
-#     # def student(d1)
+
 # d1.classroom()
 
 # myschool = School()
@@ -51,8 +51,7 @@
 # a1.school_name = "gurukul"
 # a1.classroom()
 
-
-# ## another way 
+# ## another way
 # class School:
 #     def student(self,name,sex):  #method named student in class School ## student(a1,"akshat")
 #         # internally : name = "akshat" and sex =  Male
@@ -67,29 +66,27 @@
 # a1.student("AKshat","Male")  # we are calling the method student with object a1 and variable name=akshat
 # a1.classroom("Mygurukul")
 
+# Constructor
 
-#Constructor
-
-
-# class College: 
+# class College:
 #     def student(self):
 #         print("Hello student")
 
 # d1 = College()
 # ## till here it will not print anything until we call method
-# ## Lets say we want that as soon an object is created the some value should 
+# ## Lets say we want that as soon an object is created the some value should
 # # execute and thats constructor
 
-# using constructor
-class College: 
-    def __init__(self):  #method __init__ which has property to execute as soon as the class is created : constructor
-        print("this will execute as soon as you create object...you dont have to call method")
-    def student(self):
-        print("Hello student")
+## using constructor
+# class College:
+#     def __init__(self):  #method __init__ which has property to execute as soon as the class is created : constructor
+#         print("this will execute as soon as you create object...you dont have to call method")
+#     def student(self):
+#         print("Hello student")
 
-d1 = College()
+# d1 = College()
 ##o/p: this will execute as soon as you create object...you dont have to call method
-## since we are using constructor we get output as constructor executes after object is created 
+## since we are using constructor we get output as constructor executes after object is created
 
-d1.student()
+# d1.student()
 ## Hello student will  also be printed
